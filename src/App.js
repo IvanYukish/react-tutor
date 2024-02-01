@@ -13,7 +13,7 @@ class App extends React.Component {
             <input placeholder={this.text} onClick={this.inputClick}/>
             <p>{this.text === "Help text" ? "Yes" : "No"}</p>
             <Image image={logo}/>
-            <img src={logo} alt={logo}/>
+            <img src={logo} alt="ereee"/>
         </div>)
     }
 
